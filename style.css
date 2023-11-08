@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+}
+.nav {
+  height: 120px;
+  background-color: #1b283a;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  right: 0;
+  left: 0;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 10;
+  top: 0;
+}
+.nav h1 {
+  color: white;
+}
+.nav img {
+  width: 300px;
+  height: 200px;
+}
+.nav ul {
+  display: flex;
+}
+.nav ul li {
+  margin-right: 20px;
+  list-style: none;
+  color: white;
+}
+.nav ul a {
+  text-decoration: none;
+}
+.page1 {
+  background-image: url(gambar/pexels-photo-260689\ 1.png);
+  height: 700px;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  top: 105px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 100px;
+  gap: 100px;
+}
+.page1 p {
+  font-size: 25px;
+  font-weight: 600;
+  height: 30px;
+}
+.teks1 {
+  width: 500px;
+}
+.page1 button {
+  width: 200px;
+  padding: 10px;
+  background-color: aqua;
+  border-radius: 10px;
+  border: none;
+}
